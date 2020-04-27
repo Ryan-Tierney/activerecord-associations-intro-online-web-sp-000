@@ -1,4 +1,4 @@
 class CreateArtists < ActiveRecord::Migration[4.2]
   def change 
-    create_ta
+    create_table :artists
 end
